@@ -8,28 +8,48 @@ Este guia cobre a criação, publicação e uso do pacote, e inclui ferramentas 
 
 image_processing_navpack/
 ├── .venv/                     # Ambiente virtual (não deve ser incluído no pacote)
+
 ├── image_processing_navpack/  # Pasta do código fonte
+
 │   ├── imgs/                 # Imagens usadas
+
 │   │   ├── imagem1.jpg
+
 │   │   └── imagem2.jpg
+
 │   ├── processing/           # Código de processamento de imagem
+
 │   │   ├── __init__.py
+
 │   │   ├── combination.py
+
 │   │   └── transformation.py
+
 │   ├── utils/                # Código de utilitários
+
 │   │   ├── __init__.py
+
 │   │   ├── io.py
+
 │   │   └── plot.py
+
 │   └── tests/                # Testes
+
 │       ├── __init__.py
+
 │       ├── test_processing.py
+
 │       ├── test_utils.py
+
 │       └── test_image.py     # Script principal para o usuário final
+
 ├── setup.py                  # Configuração do pacote
+
 ├── MANIFEST.in                # Arquivo para incluir arquivos no pacote
+
 └── README.md                  # Documentação do projeto
 
-🚀 Parte 1: Criação e Publicação do Pacote
+# 🚀 Parte 1: Criação e Publicação do Pacote
 
 🛠️ Passo 1: Clonar o Repositório
 
